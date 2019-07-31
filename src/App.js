@@ -8,7 +8,7 @@ function App() {
         <Face leftEyeAngle={10} rightEyeAngle={20}/>
         <Face leftEyeAngle={30} rightEyeAngle={50}/>
 
-        <p>Welcome to Shea Face</p>
+        <p >Welcome to Shea Face</p>
     </div>
   );
 }

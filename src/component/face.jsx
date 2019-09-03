@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import styles from "./face.css";
+import styles from "./face.module.scss";
 import face from "../assets/Shea.png";
 import leftEye from "../assets/left.png";
 import rightEye from "../assets/right.png";
 import PropTypes from "prop-types";
-
 
 
 class Face extends Component {
@@ -32,6 +31,7 @@ class Face extends Component {
     
     return (
           <div className={styles.container}  onClick = { this.handleClick }> 
+
             <img 
                 src={face} 
                 className={styles.face} 

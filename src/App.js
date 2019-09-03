@@ -1,14 +1,22 @@
 import React from 'react';
 import Face from './component'
-import './App.css';
+import './App.module.scss';
 
 function App() {
   return (
-    <div className="APP">
-        <Face leftEyeAngle={10} rightEyeAngle={20}/>
-        <Face leftEyeAngle={30} rightEyeAngle={50}/>
+    <div class="App">
 
-        <p >Welcome to Shea Face</p>
+       <div >
+          <h1 >Welcome to Shea Face</h1>
+        </div>
+        
+        <section>
+         <Face leftEyeAngle={10} rightEyeAngle={80}/>
+         <Face leftEyeAngle={90} rightEyeAngle={10}/>
+         <Face leftEyeAngle={130} rightEyeAngle={90}/>
+       </section>
+        
+        
     </div>
   );
 }
